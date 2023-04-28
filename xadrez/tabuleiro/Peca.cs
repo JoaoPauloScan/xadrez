@@ -21,6 +21,7 @@ namespace tabuleiro
             this.tab = tab;
         }
         public void incrementarQteMovimentos() { qteMovimentos++; }
+        public void decrementarQteMovimentos() { qteMovimentos--; }
 
         public bool existeMovimentosPossiveis()
         {
